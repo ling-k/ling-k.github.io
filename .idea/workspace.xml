@@ -64,6 +64,7 @@
       <workItem from="1629232251047" duration="3129000" />
       <workItem from="1629235396659" duration="510000" />
       <workItem from="1629342342034" duration="1048000" />
+      <workItem from="1629346516362" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="change title">
       <created>1629232287805</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629342375988</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit">
+      <created>1629346752691</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629346752691</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change title" />
     <MESSAGE value="change content" />
-    <option name="LAST_COMMIT_MESSAGE" value="change content" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="483" y="174" key="SettingsEditor" timestamp="1629342766362">
