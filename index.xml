@@ -37,7 +37,7 @@
       <link>https://example.com/project/rl_car_racing/</link>
       <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/rl_car_racing/</guid>
-      <description>&lt;p&gt;This project aims at dealing with decision making problems in autonomous driving by applying deep reinforcement
+      <description>&lt;p&gt;This project deals with decision making problems in autonomous driving by applying deep reinforcement
 learning and behavioral cloning algorithm in a simulated car
 racing environment. To be specific, we will implement deep
 reinforcement learning algorithms (Proximal Policy Optimization) and behavioral cloning algorithm (DAGGER) and
@@ -81,6 +81,7 @@ agent to play the game using expert demonstrated data.&lt;/p&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 One solution for this problem is Dataset aggregration, or dagger.  The idea of dagger is that we use our learned policy to interact with the enviornment, and record the states and the action under expert policy. Then we add the new data to the dataset, and use the new dataset to train our new policy. It is just like iterative version of behavior cloning.&lt;/p&gt;
+&lt;p&gt;More details: &lt;a href=&#34;https://ling-k.github.io/uploads/Kong_Xu_CS5180_Project_Report_edited.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt; Report &lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://ling-k.github.io/uploads/Kong_Xu_CS5180_Project_slides.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt; Slides &lt;/span&gt;&lt;/a&gt;,  &lt;a href=&#34;https://youtu.be/SGem0jixpic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt; Video &lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
