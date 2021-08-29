@@ -14,7 +14,13 @@
     <loc>https://example.com/project/newtag_test/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/project/surgical_robot/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/project/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tag/robotics/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
