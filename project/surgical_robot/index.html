@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Surgical Robot for Bone Surgery" />
+  <meta name="description" content="Surgical Robot for Bone Resection Surgery" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://example.com/project/surgical_robot/" />
@@ -313,7 +313,7 @@
   <meta property="og:site_name" content="Lingzhi Kong" />
   <meta property="og:url" content="https://example.com/project/surgical_robot/" />
   <meta property="og:title" content="Image-Guided Surgical Robot | Lingzhi Kong" />
-  <meta property="og:description" content="Surgical Robot for Bone Surgery" /><meta property="og:image" content="https://example.com/project/surgical_robot/featured.png" />
+  <meta property="og:description" content="Surgical Robot for Bone Resection Surgery" /><meta property="og:image" content="https://example.com/project/surgical_robot/featured.png" />
     <meta property="twitter:image" content="https://example.com/project/surgical_robot/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -368,7 +368,7 @@
       "url": "https://example.com/media/icon_hu0a5e3fe874455accc5deb05a8f5d73a3_87874_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Surgical Robot for Bone Surgery"
+  "description": "Surgical Robot for Bone Resection Surgery"
 }
 </script>
 
@@ -883,14 +883,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary btn-page-header" href="https://ling-k.github.io/uploads/Report-Image-Guided-Surgical-Robot.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -923,6 +917,22 @@
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ling-k.github.io/uploads/Report-Image-Guided-Surgical-Robot.pdf" target="_blank" rel="noopener">
+    
+    Report
+  </a>
+
 
 </div>
 
@@ -943,6 +953,37 @@
 
     <div class="article-style">
       <p>The conventional human-performed surgery of bone tumor resection has the drawbacks of imprecise, high labor intense on surgeons, longer recovery time. In this project, a surgical robot system for bone tumor resection is developed. First, the preoperative image of experimental bone is obtained by CT scanning. Then the surgeon is able to plan a surgery path by means of choosing key points on the 3D bone model. Second, the relationship between image space and surgical space is established. Finally the surgery path made by the surgeon in image space is mapped to surgical space and robot can receive the commands to operate the surgery. Meanwhile, the position of the surgical tool is displayed in image space in real time. Acetabular bone and thigh bone trials were performed at hospital and the outcome shows the feasibility of using robot to resect bone tumor.</p>
+<p>As shown in the figure below, the brief scheme of this project is to use the CT data of the bone to guide the robot to do the bone resection surgery.
+We first get the CT data of the bone and reconstruct it to a 3D model. Then, we load the 3D reconstructed image of the bone into 3D slicer,  an open source software for research in image guided therapy, in which the surgeon could make a surgical path by choosing key points. Second we build the relationship between image space and surgical space. This is realized by ICP algorithm with two separated steps.
+Finally, we map the surgery path planned by the surgeon from image space to surgical space and command the robot to operate the surgery. Meanwhile, the position of the surgery tool is displayed in image space.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Car Image" srcset="
+               /project/surgical_robot/Project-Scheme_hu010d76a8265ec93787ede896f7aaa38b_281524_1578e432ef9f77b533775e9a58ee4052.png 400w,
+               /project/surgical_robot/Project-Scheme_hu010d76a8265ec93787ede896f7aaa38b_281524_b55b3de4b6670ba7f07032ff1ea59b0c.png 760w,
+               /project/surgical_robot/Project-Scheme_hu010d76a8265ec93787ede896f7aaa38b_281524_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/surgical_robot/Project-Scheme_hu010d76a8265ec93787ede896f7aaa38b_281524_1578e432ef9f77b533775e9a58ee4052.png"
+               width="760"
+               height="424"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
 <p>More details: <a href="https://ling-k.github.io/uploads/Report-Image-Guided-Surgical-Robot.pdf" target="_blank" rel="noopener"><span style="color:blue"> Report </span></a>, <a href="https://ling-k.github.io/uploads/surgical_robot_project_slides.pdf" target="_blank" rel="noopener"><span style="color:blue"> Slides </span></a>,  <a href="https://www.youtube.com/watch?v=vR4T4orNpzU" target="_blank" rel="noopener"><span style="color:blue"> Video </span></a>.</p>
 
     </div>
