@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compositional Generalization | Lingzhi Kong</title>
+    <link>https://example.com/tag/compositional-generalization/</link>
+      <atom:link href="https://example.com/tag/compositional-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Compositional Generalization</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021, Lingzhi Kong</copyright><lastBuildDate>Mon, 23 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0a5e3fe874455accc5deb05a8f5d73a3_87874_512x512_fill_lanczos_center_3.png</url>
+      <title>Compositional Generalization</title>
+      <link>https://example.com/tag/compositional-generalization/</link>
+    </image>
+    
+    <item>
+      <title>Compositional Generalization in Object-Oriented Environments</title>
+      <link>https://example.com/project/compositional_generaliaztion/</link>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/compositional_generaliaztion/</guid>
+      <description>&lt;p&gt;We study compositional generalizaiton in world modeling, a key ability that humans possess. In particular, given scenes with some combinations of objects, if an agent has learned to interpret them as objects and their interactions, it should be able to generalize to scenes with novel combinations of objects.&lt;/p&gt;
+&lt;p&gt;More details: To appear, will be submitted to ICLR 2022.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
