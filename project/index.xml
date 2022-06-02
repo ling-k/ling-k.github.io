@@ -25,7 +25,21 @@ compositional generalization ability. Motivated by
 the formulation, we emprically compare several methods using our environments
 and design a straightforward approach, Homomorphic Object-oriented World
 Model (HOWM), to study compositional generalization in dynamics prediction.&lt;/p&gt;
-&lt;p&gt;More details: To appear, will be submitted to ICLR 2022.&lt;/p&gt;
+&lt;p&gt;More details: Accepted by ICML 2022 as oral (top 2%).
+&lt;a href=&#34;https://arxiv.org/pdf/2204.13661v1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;group-theory&#34;&gt;Group Theory:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Binary Operation:&lt;br&gt;
+Loosely speaking, binary operation is combining two things into one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A permutation is an operation that rearranges a collection of elements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The group of all permutations (operations) of $n$ objects is called $\textit{symmetric group}$, denoted by $S_n$. We next use cycle notation to illustrate the symmetric group $S_4$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
